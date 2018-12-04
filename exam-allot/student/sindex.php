@@ -1,0 +1,139 @@
+<?php
+session_start();
+//print_r($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Student Dashboard</title>
+</head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../images/logo0.png" type="image/x-icon" >
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/styles.css">
+<style type="text/css">
+
+	body{
+		margin: 0px;
+		border-width: thick;
+		border-color: white;
+		padding: 0px;
+		height: 700px ;
+	
+	}
+	div.col-md-4{
+		border:2px;
+		margin: 2px;
+	}
+	div.square {
+		border: 1px ;
+		}
+	.panel-footer{
+		margin-top: 20px;
+		height: 300px;
+		margin-bottom: 0px;
+		background-color: grey;
+	}
+	a:link{
+		color: black;
+		text-decoration-style:unset; 
+	}
+</style>
+
+<body>
+	<div class="jumbotron text-center">
+		<h1> Welcome Student </h1>
+		<p> Select Appropriate Fields</p>
+		<p style="color:red ;">If You Want Changes In Your Student Information Contact Admin </p>
+		<a title="logout" href="../logout.php"><p>LOG OUT</p></a>
+	</div>
+
+<footer style="height: 100%">
+	<div style="height: 100%;" class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Student</h4>
+				<br/>
+				<ul>
+			<!--		<li><a href="../student/addstudent.php">ADD Student</a></li>
+					<li><a href="../student/delstudent.php">REMOVE Student</a></li> -->
+					<li><a target="_blank" href="../student/infostudent.php">INFO Student</a></li>
+				<!--	<li><a target="_blank" href="../student/liststudent.php">LIST Student</a></li> -->
+			<!--		<li><a href="../student/updatestudent.php">UPDATE Student</a></li>	-->
+				</ul>
+			<!--	<br/>
+					<h4>Student Enrolled List</h4>
+				<br/>
+				<ul>
+					<li><a href="../enrolled/delstudentenrolled.php">ADD Student Enrolled Subject</a></li>
+					<li><a href="../enrolled/liststudentenrolled.php">REMOVE Student Enrolled Subject</a></li> 
+					<li><a href="../enrolled/studentenrolled.php">List Enrolled Subjects</a></li>
+				</ul>-->
+			</div> 
+	<!--		<div class="col-md-3">
+					<h4>Faculty</h4>
+				<br/>
+				<ul>
+					<li><a href="../faculty/addfaculty.php">ADD Faculty</a></li>
+					<li><a href="../faculty/delfaculty.php">REMOVE Faculty</a></li>
+					<li><a href="../faculty/infofaculty.php">INFO Faculty</a></li>
+					<li><a target="_blank" href="../faculty/facultylist.php">LIST Faculty</a></li>
+					<li><a href="../faculty/updatefaculty.php">UPDATE Faculty</a></li>	
+				</ul>
+				<br/>
+					<h4>Department</h4>
+				<br/>
+				<ul>
+					<li><a href="../dept/listdept.php">Department list</a></li> -->
+			<!--	<li><a href="../student/delstudent.php">REMOVE Student Enrolled Subject</a></li>
+				<li><a href="../student/infostudent.php">List Enrolled Subjects</a></li> 
+				</ul> 
+			</div>-->
+			<div class="col-md-3">
+			<!--	<h4>Exam Hall</h4>
+				<br/>
+				<ul>
+					<li><a href="../examhall/addexamhall.php">ADD Hall</a></li> 
+					<li><a href="../examhall/delexamhall.php">REMOVE Hall</a></li>      
+					<li><a target="_blank" href="../examhall/listexamhall.php">LIST Hall</a></li>
+				</ul>
+				<br/> -->
+				<h4>EXAM DATES</h4>
+				<br/>
+				<ul>
+		<!--			<li><a href="../examdate/addexamdate.php">ADD ExamDate</a></li>
+					<li><a href="../examdate/delexamdate.php">REMOVE ExamDate</a></li>  -->
+					<li><a target="_blank" href="sexamdate.php"> TIMETABLE</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Student Allotment</h4>
+				<br/>
+				<ul>
+		<!--			<li><a href="../studenthall/addstudenthall.php">ADD Student Hall</a></li>
+					<li><a href="../studenthall/delstudenthall.php">REMOVE Student Hall</a></li> -->
+					<li><a target="_blank" href="sstudenthall.php">LIST Student Hall</a></li>
+				</ul>
+				<br/>
+			<!--	<h4>Faculty Allotment</h4>
+				<br/>
+				<ul>
+					<li><a href="../facultyhall/addfacultyhall.php">ADD Faculty Hall</a></li>
+					<li><a href="../facultyhall/delfacultyhall.php">Remove Faculty Hall</a></li>
+					<li><a target="_blank" href="../facultyhall/listfacultyhall.php">List Faculty Hall</a></li>
+				</ul> -->
+			</div>
+		</div>
+		
+	</div>
+</footer>
+
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -14,3 +14,5 @@ Current system is manual so all the records are maintained manually. So the seat
     • Less Accurate
     
     
+    
+![alt homepage](https://github.com/ashutoshjv661/exam-allot/blob/master/1.jpg)

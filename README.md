@@ -16,3 +16,5 @@ Current system is manual so all the records are maintained manually. So the seat
     
     
 ![alt homepage](https://github.com/ashutoshjv661/exam-allot/blob/master/1.jpg)
+
+PS: New file exam_allot.sql Added . The database tables can be added using this sql file . Import this file in XAMP and you can find the initial tables wihtout much data . ^_^

@@ -165,8 +165,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`usn`, `fname`, `mname`, `lname`, `sem`, `email`, `phno`) VALUES
-('2kl16cs016', 'ashutosh', 'ashok', 'jadhav', '5', 'ashutoshjadhav661@gmail.com', '9964328546'),
-('2kl16cs017', 'charudatt', 'p', 'dhamnekar', '5', 'charudatt4945@gmail.com', '6362790354');
+('2kl16cs666', 'ashutosh', 'ashok', 'jadhav', '5', 'ashutoshjadhav661@gmail.com', '9960998766'),
+('2kl16cs017', 'charudatt', 'p', 'dhamnekar', '5', 'charudatt4945@gmail.com', '6369790999');
 
 -- --------------------------------------------------------
 

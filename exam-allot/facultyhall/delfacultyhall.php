@@ -1,5 +1,5 @@
 <?php 
-$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bhalujadhav007' );
+$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bh07' );
 $pdo->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
   $stmt = $pdo->query("select * from facultyhallallot ");
   if(isset($_POST['hallno']) && isset($_POST['date']) && isset($_POST['fid']) ){

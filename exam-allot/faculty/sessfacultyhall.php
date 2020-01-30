@@ -1,7 +1,7 @@
 
 <?php
 session_start(); 
-$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bhalujadhav007' );
+$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bh07' );
 $pdo->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
 //print_r($_SESSION);
 $fid=$_SESSION['name'];

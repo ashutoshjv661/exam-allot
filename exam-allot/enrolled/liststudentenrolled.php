@@ -1,6 +1,6 @@
 
 <?php 
-$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bhalujadhav007' );
+$pdo=new PDO('mysql:host=localhost;port=3306;dbname=exam_allot','ashutosh','bh07' );
 $pdo->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
 try{
 	$stmt = $pdo->query("select usn,s.subcode,subname from enrolled e,sub s where e.subcode=s.subcode ");
